@@ -1,10 +1,17 @@
-﻿using System;
+﻿using RestApiDDD.Application.DTOS;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RestApiDDD.Application.Interfaces
 {
-    interface IApplicationServiceProduto
+    public interface IApplicationServiceProduto
     {
+        void Add(ProdutoDto produtoDto);
+        void Update(ProdutoDto produtoDto);
+        void Remove(ProdutoDto produtoDto);
+
+        IEnumerable<ProdutoDto> GetAll();
+        ProdutoDto GetById(int id);
     }
 }
