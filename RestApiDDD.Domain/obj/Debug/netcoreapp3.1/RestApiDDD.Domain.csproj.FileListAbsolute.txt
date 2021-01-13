@@ -1,0 +1,9 @@
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.deps.json
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.dll
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.pdb
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.csprojAssemblyReference.cache
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.AssemblyInfoInputs.cache
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.AssemblyInfo.cs
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.dll
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.pdb

@@ -1,0 +1,14 @@
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.deps.json
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.dll
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.pdb
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.Core.dll
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.dll
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.Core.pdb
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\bin\Debug\netcoreapp3.1\RestApiDDD.Domain.pdb
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.csprojAssemblyReference.cache
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.AssemblyInfo.cs
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.csproj.CopyComplete
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.dll
+C:\Users\Deons\Documents\udemy java\C#\Workspaces\ws-VisualStudioDIO\RestApiDDD\RestApiDDD.Domain.Services\obj\Debug\netcoreapp3.1\RestApiDDD.Domain.Services.pdb

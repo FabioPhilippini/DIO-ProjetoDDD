@@ -1,4 +1,5 @@
 ﻿using RestApiDDD.Application.DTOS;
+using RestApiDDD.Application.Interfaces.Mappers;
 using RestApiDDD.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace RestApiDDD.Application.Mapper
 {
-    public class MapperProduto
+    public class MapperProduto : IMapperProduto
     {
         public Produto MapperDtoToEntity(ProdutoDto produtoDto)
         {
