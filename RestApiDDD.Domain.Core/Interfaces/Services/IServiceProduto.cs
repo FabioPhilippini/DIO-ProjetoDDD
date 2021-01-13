@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RestApiDDD.Domain.Core.Interfaces.Services
 {
-    interface IServiceProduto : IServiceBase<Produto>
+    public interface IServiceProduto : IServiceBase<Produto>
     {
     }
 }
