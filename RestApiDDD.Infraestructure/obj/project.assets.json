@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/5.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "type": "package",
         "compile": {
@@ -216,6 +225,20 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "RestApiDDD.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RestApiDDD.Domain": "1.0.0",
+          "RestApiDDD.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiDDD.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiDDD.Application.dll": {}
+        }
+      },
       "RestApiDDD.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -238,10 +261,44 @@
         "runtime": {
           "bin/placeholder/RestApiDDD.Domain.Core.dll": {}
         }
+      },
+      "RestApiDDD.Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RestApiDDD.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiDDD.Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiDDD.Domain.Services.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/5.1.4": {
+      "sha512": "MsAEZJNCBTwZ21cBaFosWvR+zNG3VXB8y8qn3HmYl6m9iR/CDqDQykqBzfApbqj3N1l2I4qVBPA2exIdHJvANQ==",
+      "type": "package",
+      "path": "autofac/5.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.5.1.4.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.dll",
+        "lib/net461/Autofac.pdb",
+        "lib/net461/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
       "type": "package",
@@ -648,6 +705,11 @@
         "version.txt"
       ]
     },
+    "RestApiDDD.Application/1.0.0": {
+      "type": "project",
+      "path": "../RestApiDDD.Application/RestApiDDD.Application.csproj",
+      "msbuildProject": "../RestApiDDD.Application/RestApiDDD.Application.csproj"
+    },
     "RestApiDDD.Domain/1.0.0": {
       "type": "project",
       "path": "../RestApiDDD.Domain/RestApiDDD.Domain.csproj",
@@ -657,13 +719,21 @@
       "type": "project",
       "path": "../RestApiDDD.Domain.Core/RestApiDDD.Domain.Core.csproj",
       "msbuildProject": "../RestApiDDD.Domain.Core/RestApiDDD.Domain.Core.csproj"
+    },
+    "RestApiDDD.Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../RestApiDDD.Domain.Services/RestApiDDD.Domain.Services.csproj",
+      "msbuildProject": "../RestApiDDD.Domain.Services/RestApiDDD.Domain.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Autofac >= 5.1.4",
       "Microsoft.EntityFrameworkCore >= 3.1.3",
+      "RestApiDDD.Application >= 1.0.0",
       "RestApiDDD.Domain >= 1.0.0",
-      "RestApiDDD.Domain.Core >= 1.0.0"
+      "RestApiDDD.Domain.Core >= 1.0.0",
+      "RestApiDDD.Domain.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -693,8 +763,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Application\\RestApiDDD.Application.csproj": {
+              "projectPath": "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Application\\RestApiDDD.Application.csproj"
+            },
             "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain.Core\\RestApiDDD.Domain.Core.csproj": {
               "projectPath": "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain.Core\\RestApiDDD.Domain.Core.csproj"
+            },
+            "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain.Services\\RestApiDDD.Domain.Services.csproj": {
+              "projectPath": "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain.Services\\RestApiDDD.Domain.Services.csproj"
             },
             "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain\\RestApiDDD.Domain.csproj": {
               "projectPath": "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain\\RestApiDDD.Domain.csproj"
@@ -712,6 +788,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[5.1.4, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.3, )"

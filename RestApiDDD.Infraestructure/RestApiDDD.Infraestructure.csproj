@@ -5,15 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RestApiDDD.Application\RestApiDDD.Application.csproj" />
     <ProjectReference Include="..\RestApiDDD.Domain.Core\RestApiDDD.Domain.Core.csproj" />
+    <ProjectReference Include="..\RestApiDDD.Domain.Services\RestApiDDD.Domain.Services.csproj" />
     <ProjectReference Include="..\RestApiDDD.Domain\RestApiDDD.Domain.csproj" />
   </ItemGroup>
 
