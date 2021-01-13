@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "RestApiDDD.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/RestApiDDD.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiDDD.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RestApiDDD.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RestApiDDD.Domain/RestApiDDD.Domain.csproj",
+      "msbuildProject": "../RestApiDDD.Domain/RestApiDDD.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "RestApiDDD.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Deons\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain\\RestApiDDD.Domain.csproj": {
+              "projectPath": "C:\\Users\\Deons\\Documents\\udemy java\\C#\\Workspaces\\ws-VisualStudioDIO\\RestApiDDD\\RestApiDDD.Domain\\RestApiDDD.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
